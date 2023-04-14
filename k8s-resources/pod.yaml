@@ -3,6 +3,7 @@ kind: Pod
 metadata:
   name: hello-pod
 spec:
+  restartPolicy: Never
   containers:
   - name: pod-container
     image: busybox
